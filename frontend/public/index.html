@@ -5,6 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="index.css">
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -24,20 +25,32 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Main page</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">
+      <h1 class="main-page">User name</h1>
+      <p class="main-page" id="point">point : 100 </p>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <img src="/frontend/public/img/profile.png" id="profile" >
+    </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="tab">
+      <img id="bg-tab" src="/frontend/public/img/bg-tab.png" weight="50px" height="500px"> 
+      <img id="treasury" src="/frontend/public/img/treasury.png" weight="50px" height="50px">
+      <p class="tab-text" id="treasury-text">คลัง</p>
+      <img id="history" src="/frontend/public/img/history.png" weight="50px" height="50px">
+      <p class="tab-text" id="history-text">ประวัติ</p>
+      <img id="setting" src="/frontend/public/img/setting.png" weight="50px" height="50px">
+      <p class="tab-text" id="setting-text">ตั่งค่า</p>
+      <img id="log-out" src="/frontend/public/img/log-out.png" weight="50px" height="50px">
+      <p class="tab-text" id="log-out-text">ออกจากระบบ</p>
+    </div>
+    
+    <div class="center">
+      <img id="play" src="/frontend/public/img/btnPlay.png" weight="50px" height="500px">
+      <img id="add" src="/frontend/public/img/btnAdd.png" weight="50px" height="350px">
+      <img id="test" src="/frontend/public/img/btnTest.png" weight="20px" height="300px">
+    </div>
   </body>
 </html>
