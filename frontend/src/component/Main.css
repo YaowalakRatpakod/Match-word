@@ -1,31 +1,11 @@
-.bg-tab {
-    background-image: url(../../src/img/background.jpeg); 
-    /* background-repeat: repeat;
+.bg {
+    background-image: url("../../src/img/background.jpeg");
     position: fixed;
-    background-attachment: fixed;
-    background-size: 1800px 900px;
-    height: 1500px; */
-    background-size: 100% 100%;
-    height: 100vh;
-}
-/* .GeeksForGeeks {
-    background-image: 
-    url("../../src/img/violet.jpeg");
-    background-size: "cover";
-    height: 100vh;
-    margin-top: -70px;
-    font-size:50px;
+    background-size: contain;
+    height: 840px;
+    margin: 0px 0px;
     background-repeat:no-repeat; 
-  } */
-/* #lol {
-    background-image: url(../../src/img/violet.jpeg);
-    background-repeat: repeat;
-    position: fixed;
-    background-attachment: fixed;
-    background-size: 1800px 900px;
-    opacity: 1.0;
-} */
-.main-page {
+}.main-page {
     color: rgb(0, 0, 0);
     margin: 20px 150px;
     border: 5px black;
@@ -39,23 +19,20 @@
     margin: -105px 20px;
     display: block;
 }
+
 .tab {
     display: grid;
     margin: 200px 20px;
     
 }
 #bg-tab {
-    /*margin: 200px 20px;*/
-    /*grid-template-rows: 100px 50px;*/
     position: fixed;
 }
 #treasury {
-    /*grid-template-rows: 100px 50px;*/
     margin: 65px 25px;
     position: fixed;
 }
 #history {
-    /*grid-template-rows: 100px 50px;*/
     margin: 165px 25px;
     position: fixed;
 }
@@ -67,16 +44,15 @@
     margin: 365px 25px;
     position: fixed;
 }
+
 .tab-text {
     margin: 140px 25px;
     position: fixed;
 }
 #treasury-text {
-    /*grid-template-rows: 100px 50px;*/
     margin: 125px 35px;
 }
 #history-text {
-    /*grid-template-rows: 100px 50px;*/
     margin: 225px 30px;
 }
 #setting-text {
@@ -85,16 +61,30 @@
 #log-out-text {
     margin: 425px 10px;
 }
+
 .center {
-    position: fixed;
-    position: relative;
-}/*
+    display: grid;
+}
 #play {
-    margin:300px 400px ;
+    margin:-200px 350px ;
 }
 #add {
-    margin:000px -350px;
+    margin:-400px 800px;
 }
 #test {
-    margin: 0px -170px;
-}*/
+    margin: 0px 800px;
+}
+
+.right-bar{
+    display: grid;
+}
+#sound {
+    margin: -790px 1250px ;
+}
+#language {
+    margin: -790px 1300px ;
+}
+
+#cursor-his{
+    cursor: pointer;
+}
